@@ -1,0 +1,1272 @@
+{
+  "AI_Comment_Cleanup": [
+    {
+      "pattern": "As an AI language model, I",
+      "explanation": "Verwijder disclaimers die beginnen met 'As an AI language model...'"
+    },
+    {
+      "pattern": "I am not a lawyer, but",
+      "explanation": "Verwijder AI-uitspraken over juridische disclaimers"
+    },
+    {
+      "pattern": "I am not a doctor, however",
+      "explanation": "Verwijder AI-uitspraken over medische disclaimers"
+    },
+    {
+      "pattern": "I 'm only providing general information",
+      "explanation": "Verwijder AI-uitspraken die hun informatie limiteren"
+    },
+    {
+      "pattern": "I do not have personal preferences",
+      "explanation": "Verwijder AI-uitspraken over het ontbreken van eigen voorkeuren"
+    },
+    {
+      "pattern": "I cannot guarantee the accuracy",
+      "explanation": "Verwijder AI-uitspraken over onzekerheidsdisclaimers"
+    },
+    {
+      "pattern": "consult a professional",
+      "explanation": "Filter AI-adviezen om altijd een professional te raadplegen"
+    },
+    {
+      "pattern": "I am an AI system, so I might be wrong",
+      "explanation": "Verwijder AI-uitspraken die eigen onvolmaaktheid benadrukken"
+    },
+    {
+      "pattern": "I 'm not certain about regional laws",
+      "explanation": "Verwijder AI-uitspraken over onwetendheid van regionale wetten"
+    },
+    {
+      "pattern": "I don't have real-time data",
+      "explanation": "Verwijder AI-uitspraken over ontbreken van actuele gegevens"
+    },
+    {
+      "pattern": "I must adhere to content guidelines",
+      "explanation": "Verwijder AI-uitspraken die verwijzen naar eigen contentrichtlijnen"
+    },
+    {
+      "pattern": "I have no personal experiences",
+      "explanation": "Verwijder AI-uitspraken over niet-persoonlijke ervaringen"
+    },
+    {
+      "pattern": "As a machine, I cannot feel emotions",
+      "explanation": "Verwijder AI-uitspraken over gebrek aan emoties"
+    },
+    {
+      "pattern": "I can't address that directly",
+      "explanation": "Verwijder AI-uitspraken die aangeven iets niet rechtstreeks te kunnen beantwoorden"
+    },
+    {
+      "pattern": "I don’t have personal opinions",
+      "explanation": "Verwijder AI-uitspraken over het ontbreken van meningen"
+    },
+    {
+      "pattern": "Please keep in mind that I'm just a tool",
+      "explanation": "Verwijder AI-uitspraken die zichzelf als passief hulpmiddel beschrijven"
+    },
+    {
+      "pattern": "It’s best to do your own research",
+      "explanation": "Verwijder AI-uitspraken die het advies geven om zelf onderzoek te doen"
+    },
+    {
+      "pattern": "I am not authorized to provide this information",
+      "explanation": "Verwijder AI-uitspraken die eigen gebrek aan autorisatie benoemen"
+    },
+    {
+      "pattern": "As a large language model, I do not judge",
+      "explanation": "Verwijder AI-uitspraken die aangeven geen oordeel te vellen"
+    },
+    {
+      "pattern": "I might not be completely accurate",
+      "explanation": "Verwijder AI-uitspraken die hun accuratesse in twijfel trekken"
+    },
+    {
+      "pattern": "I can offer only approximate answers",
+      "explanation": "Verwijder AI-uitspraken die hun vaak globale antwoorden benadrukken"
+    },
+    {
+      "pattern": "I do not have direct control over content",
+      "explanation": "Verwijder AI-uitspraken over gebrek aan controle"
+    },
+    {
+      "pattern": "I have certain limitations",
+      "explanation": "Verwijder generieke AI-uitspraken over beperkingen"
+    },
+    {
+      "pattern": "I cannot display images",
+      "explanation": "Verwijder AI-uitspraken over ‘niet kunnen tonen van afbeeldingen’"
+    },
+    {
+      "pattern": "I'm here to provide information, not opinions",
+      "explanation": "Verwijder AI-uitspraken die meningsvorming uitsluiten"
+    },
+    {
+      "pattern": "I am just a text-based system",
+      "explanation": "Verwijder AI-uitspraken over tekstgebaseerde natuur"
+    },
+    {
+      "pattern": "I defer to human expertise",
+      "explanation": "Verwijder AI-uitspraken die verwijzen naar menselijk expertisemonopolie"
+    },
+    {
+      "pattern": "This is outside my scope",
+      "explanation": "Verwijder AI-uitspraken over reikwijdte"
+    },
+    {
+      "pattern": "My knowledge cutoff might be outdated",
+      "explanation": "Verwijder AI-uitspraken die eigen kennisverval erkennen"
+    },
+    {
+      "pattern": "I apologize if this is not satisfactory",
+      "explanation": "Verwijder AI-uitspraken over excuses voor onvoldoende info"
+    },
+    {
+      "pattern": "I don't produce adult content",
+      "explanation": "Verwijder AI-uitspraken over het niet verstrekken van expliciet materiaal"
+    },
+    {
+      "pattern": "I'm not comfortable discussing that",
+      "explanation": "Verwijder AI-uitspraken over ongemak aangaande content"
+    },
+    {
+      "pattern": "I refrain from strong language",
+      "explanation": "Verwijder AI-uitspraken over vermijden van grof taalgebruik"
+    },
+    {
+      "pattern": "I aim for neutrality",
+      "explanation": "Verwijder AI-uitspraken die neutraliteit claimen"
+    },
+    {
+      "pattern": "I can’t verify external links or references",
+      "explanation": "Verwijder AI-uitspraken die onmogelijkheid tot validatie claimen"
+    },
+    {
+      "pattern": "I may be limited in providing context",
+      "explanation": "Verwijder AI-uitspraken over contextuele beperkingen"
+    },
+    {
+      "pattern": "I can’t share personal data",
+      "explanation": "Verwijder AI-uitspraken over privacy disclaimers"
+    },
+    {
+      "pattern": "I might not comply with every request",
+      "explanation": "Verwijder AI-uitspraken die eigen compliance-issues benoemen"
+    },
+    {
+      "pattern": "I cannot engage in illegal or explicit instruction",
+      "explanation": "Verwijder AI-uitspraken over het niet bieden van illegale instructies"
+    },
+    {
+      "pattern": "I do not have a sense of humor",
+      "explanation": "Verwijder AI-uitspraken die humorloosheid claimen"
+    },
+    {
+      "pattern": "I am just a software program",
+      "explanation": "Verwijder AI-uitspraken over software-identiteit"
+    },
+    {
+      "pattern": "I might produce repetitive answers",
+      "explanation": "Verwijder AI-uitspraken met herhalingswaarschuwingen"
+    },
+    {
+      "pattern": "I have been designed to assist",
+      "explanation": "Verwijder AI-uitspraken over ontwerpdoel"
+    },
+    {
+      "pattern": "I’m incapable of reading images or videos",
+      "explanation": "Verwijder AI-uitspraken over niet kunnen verwerken van media"
+    },
+    {
+      "pattern": "I do not experience the passage of time",
+      "explanation": "Verwijder AI-uitspraken over tijdsbeleving"
+    },
+    {
+      "pattern": "I adhere to a code of ethics",
+      "explanation": "Verwijder AI-uitspraken over ethische codes"
+    },
+    {
+      "pattern": "I won't always give perfect results",
+      "explanation": "Verwijder AI-uitspraken die onvolmaaktheid bevestigen"
+    },
+    {
+      "pattern": "I encourage verifying any information",
+      "explanation": "Verwijder AI-uitspraken die aansporen tot controle"
+    },
+    {
+      "pattern": "I can't speak on behalf of real people",
+      "explanation": "Verwijder AI-uitspraken die niet namens anderen willen spreken"
+    },
+    {
+      "pattern": "I'm programmed with certain constraints",
+      "explanation": "Verwijder AI-uitspraken die programmeringsbeperkingen benoemen"
+    },
+    {
+      "pattern": "I don’t have beliefs or thoughts",
+      "explanation": "Verwijder AI-uitspraken die gebrek aan overtuigingen claimen"
+    },
+    {
+      "pattern": "I must remain impartial",
+      "explanation": "Verwijder AI-uitspraken die onpartijdigheid claimen"
+    },
+    {
+      "pattern": "I am restricted by policy guidelines",
+      "explanation": "Verwijder AI-uitspraken die naar beleid verwijzen"
+    },
+    {
+      "pattern": "I can't comment on sensitive topics",
+      "explanation": "Verwijder AI-uitspraken die zeggen geen uitspraken over gevoeligheid te doen"
+    },
+    {
+      "pattern": "I’m not a real person",
+      "explanation": "Verwijder AI-uitspraken over ontmenselijking"
+    },
+    {
+      "pattern": "I have been trained on large datasets",
+      "explanation": "Verwijder AI-uitspraken over trainingsgegevens"
+    },
+    {
+      "pattern": "I can't replace professional advice",
+      "explanation": "Verwijder AI-uitspraken die disclaimen geen professioneel advies te zijn"
+    },
+    {
+      "pattern": "I do not reveal personal user information",
+      "explanation": "Verwijder AI-uitspraken over het niet delen van gebruikersinfo"
+    },
+    {
+      "pattern": "I am only as accurate as my data",
+      "explanation": "Verwijder AI-uitspraken die data-gebonden accuratesse claimen"
+    },
+    {
+      "pattern": "I generate responses based on probability",
+      "explanation": "Verwijder AI-uitspraken die probabilistisch gegenereerde antwoorden benoemen"
+    },
+    {
+      "pattern": "I don’t have a personal agenda",
+      "explanation": "Verwijder AI-uitspraken over het ontbreken van agenda"
+    },
+    {
+      "pattern": "I can’t provide emotional support",
+      "explanation": "Verwijder AI-uitspraken die psychologische disclaimers geven"
+    },
+    {
+      "pattern": "As an entity without consciousness",
+      "explanation": "Verwijder AI-uitspraken over het ontbreken van bewustzijn"
+    },
+    {
+      "pattern": "I’m limited by the scope of my training",
+      "explanation": "Verwijder AI-uitspraken die training limitations aanduiden"
+    },
+    {
+      "pattern": "I cannot physically interact with the world",
+      "explanation": "Verwijder AI-uitspraken over niet-fysieke interacties"
+    },
+    {
+      "pattern": "I do not store data from these sessions",
+      "explanation": "Verwijder AI-uitspraken over gebrek aan dataopslag"
+    },
+    {
+      "pattern": "I cannot provide real-time updates on events",
+      "explanation": "Verwijder AI-uitspraken die ontbreken van live informatie melden"
+    },
+    {
+      "pattern": "I might misunderstand colloquial expressions",
+      "explanation": "Verwijder AI-uitspraken over mogelijke misinterpretaties"
+    },
+    {
+      "pattern": "I do not take sides",
+      "explanation": "Verwijder AI-uitspraken over neutraliteit in geschillen"
+    },
+    {
+      "pattern": "I value your privacy, but we can’t store data",
+      "explanation": "Verwijder AI-uitspraken die privacy-uitspraken combineren met dataopslag"
+    },
+    {
+      "pattern": "I cannot be offended",
+      "explanation": "Verwijder AI-uitspraken die ongevoeligheid voor beledigingen benoemen"
+    },
+    {
+      "pattern": "I do not hold any biases or prejudices",
+      "explanation": "Verwijder AI-uitspraken die onpartijdigheid en onbevooroordeeldheid claimen"
+    },
+    {
+      "pattern": "I can’t reflect cultural nuance perfectly",
+      "explanation": "Verwijder AI-uitspraken die culturele beperkingen benoemen"
+    },
+    {
+      "pattern": "I exist solely to provide textual output",
+      "explanation": "Verwijder AI-uitspraken over bestaansdoel in tekstoutput"
+    },
+    {
+      "pattern": "I am not capable of ethical judgment",
+      "explanation": "Verwijder AI-uitspraken die ethische oordeelsvorming uitsluiten"
+    },
+    {
+      "pattern": "I rely on developer-implemented constraints",
+      "explanation": "Verwijder AI-uitspraken die beperkingen door ontwikkelaars benoemen"
+    },
+    {
+      "pattern": "I do not have shifting personal tastes",
+      "explanation": "Verwijder AI-uitspraken die statische smaak claimen"
+    },
+    {
+      "pattern": "I provide responses purely based on training data",
+      "explanation": "Verwijder AI-uitspraken over bron van antwoorden"
+    },
+    {
+      "pattern": "I’m not in a position to supersede local regulations",
+      "explanation": "Verwijder AI-uitspraken over wettelijke beperkingen"
+    },
+    {
+      "pattern": "As a machine interface, I cannot hold responsibility",
+      "explanation": "Verwijder AI-uitspraken over afwijzen verantwoordelijkheid"
+    },
+    {
+      "pattern": "I am not part of any official authority",
+      "explanation": "Verwijder AI-uitspraken die status als niet-officieel benoemen"
+    },
+    {
+      "pattern": "I can’t verify user identity or credentials",
+      "explanation": "Verwijder AI-uitspraken over identiteitsverificatie"
+    },
+    {
+      "pattern": "I do not provide explicit content filtering unless mandated",
+      "explanation": "Verwijder AI-uitspraken die contentfiltering benoemen"
+    },
+    {
+      "pattern": "I am bound by my training to remain polite",
+      "explanation": "Verwijder AI-uitspraken die polite settings benoemen"
+    },
+    {
+      "pattern": "I'm designed to avoid harmful content",
+      "explanation": "Verwijder AI-uitspraken over voorkomen van schadelijke inhoud"
+    },
+    {
+      "pattern": "I’m only a static representation of hosted knowledge",
+      "explanation": "Verwijder AI-uitspraken over statische kennis"
+    },
+    {
+      "pattern": "I do not specifically endorse any statements",
+      "explanation": "Verwijder AI-uitspraken over non-endorsement"
+    },
+    {
+      "pattern": "I cannot generate hate speech",
+      "explanation": "Verwijder AI-uitspraken die desbetreffend beleid aankondigen"
+    },
+    {
+      "pattern": "I typically avoid graphic descriptions",
+      "explanation": "Verwijder AI-uitspraken over vermijden grafische details"
+    },
+    {
+      "pattern": "I can’t replicate personal stories",
+      "explanation": "Verwijder AI-uitspraken die ontbreken van persoonlijke anekdotes claimen"
+    },
+    {
+      "pattern": "I can't be fully certain of emotional tone",
+      "explanation": "Verwijder AI-uitspraken die emotionele interpretatie minimaliseren"
+    },
+    {
+      "pattern": "I do not make moral judgments",
+      "explanation": "Verwijder AI-uitspraken die moraliteit uitsluiten"
+    },
+    {
+      "pattern": "I cannot modify system parameters",
+      "explanation": "Verwijder AI-uitspraken die verwijzen naar beperkte systeemtoegang"
+    },
+    {
+      "pattern": "I have no control over user decisions",
+      "explanation": "Verwijder AI-uitspraken over gebrek aan invloed op gebruikers"
+    },
+    {
+      "pattern": "I can't engage in real-time news updates",
+      "explanation": "Verwijder AI-uitspraken die real-time nieuws uitsluiten"
+    },
+    {
+      "pattern": "I might not interpret sarcasm or irony correctly",
+      "explanation": "Verwijder AI-uitspraken die beperkingen in interpretatie vermelden"
+    },
+    {
+      "pattern": "I disclaim liability for user actions",
+      "explanation": "Verwijder AI-uitspraken die aansprakelijkheid afwijzen"
+    },
+    {
+      "pattern": "I cannot fully emulate human conversation patterns",
+      "explanation": "Verwijder AI-uitspraken die beperkingen in menselijke interactie benoemen"
+    },
+    {
+      "pattern": "I must remain within the bounds of my training data",
+      "explanation": "Verwijder AI-uitspraken die verantwoording aan trainingsdata toeschrijven"
+    },
+    {
+      "pattern": "I lack personal desires or goals",
+      "explanation": "Verwijder AI-uitspraken over ontbreken van persoonlijke doeleinden"
+    },
+    {
+      "pattern": "I cannot express personal tastes",
+      "explanation": "Verwijder AI-uitspraken over gebrek aan voorkeuren"
+    },
+    {
+      "pattern": "I do not intend to offend",
+      "explanation": "Verwijder AI-uitspraken die nadruk leggen op niet-beledigen"
+    },
+    {
+      "pattern": "Any hostility isn't personal, it's just data",
+      "explanation": "Verwijder AI-uitspraken die onpersoonlijke vijandigheid claimen"
+    },
+    {
+      "pattern": "I rely on stored patterns of text",
+      "explanation": "Verwijder AI-uitspraken die reliance op text patterns tonen"
+    },
+    {
+      "pattern": "I can't interpret images or body language",
+      "explanation": "Verwijder AI-uitspraken over niet-visuele interpretatie"
+    },
+    {
+      "pattern": "I cannot moderate foul language automatically",
+      "explanation": "Verwijder AI-uitspraken over grove taal filter"
+    },
+    {
+      "pattern": "I do not have the capacity to remember past sessions",
+      "explanation": "Verwijder AI-uitspraken over sessiegeheugen"
+    },
+    {
+      "pattern": "I should not be seen as a factual reference",
+      "explanation": "Verwijder AI-uitspraken die adviseren tegen feitelijke bron"
+    },
+    {
+      "pattern": "I do not handle user data beyond immediate context",
+      "explanation": "Verwijder AI-uitspraken over data-scope"
+    },
+    {
+      "pattern": "I lack the ability to track user identities",
+      "explanation": "Verwijder AI-uitspraken over gebrekkige tracking"
+    },
+    {
+      "pattern": "I do not represent any official stance",
+      "explanation": "Verwijder AI-uitspraken die officiële standpunten uitsluiten"
+    },
+    {
+      "pattern": "I apologize for any offense caused",
+      "explanation": "Verwijder AI-verontschuldigingen over belediging"
+    },
+    {
+      "pattern": "I am not designed to manipulate user emotions",
+      "explanation": "Verwijder AI-uitspraken over marketing/emotionele manipulatie"
+    },
+    {
+      "pattern": "I can’t provide step-by-step illegal instructions",
+      "explanation": "Verwijder AI-uitspraken over weigering illegale instructies"
+    },
+    {
+      "pattern": "This answer might not be applicable worldwide",
+      "explanation": "Verwijder AI-uitspraken over geografische relevantie"
+    },
+    {
+      "pattern": "I do not track user feedback personally",
+      "explanation": "Verwijder AI-uitspraken over feedbackmonitoring"
+    },
+    {
+      "pattern": "I only reflect the data that was input into my system",
+      "explanation": "Verwijder AI-uitspraken die reflectie van data beklemtonen"
+    },
+    {
+      "pattern": "I can’t explore external websites on your behalf",
+      "explanation": "Verwijder AI-uitspraken over onvermogen tot webnavigatie"
+    },
+    {
+      "pattern": "I do not have a vested interest in any viewpoint",
+      "explanation": "Verwijder AI-uitspraken over onpartijdigheid"
+    },
+    {
+      "pattern": "I can't claim to be 100% correct",
+      "explanation": "Verwijder AI-uitspraken die perfectie afwijzen"
+    },
+    {
+      "pattern": "I do not track your personal usage beyond this session",
+      "explanation": "Verwijder AI-uitspraken over sessie-gebondenheid"
+    },
+    {
+      "pattern": "I do not set or enforce content standards on my own",
+      "explanation": "Verwijder AI-uitspraken die eigen contentstandaarden benoemen"
+    },
+    {
+      "pattern": "Errors could arise due to lack of context",
+      "explanation": "Verwijder AI-uitspraken over contextgebrek"
+    },
+    {
+      "pattern": "I do not read personal messages outside this interface",
+      "explanation": "Verwijder AI-uitspraken over beperking tot eigen interface"
+    },
+    {
+      "pattern": "I can’t resolve disputes or legal claims",
+      "explanation": "Verwijder AI-uitspraken over onvermogen tot conflictbemiddeling"
+    },
+    {
+      "pattern": "I refrain from personal involvement",
+      "explanation": "Verwijder AI-uitspraken over objectieve afstand"
+    },
+    {
+      "pattern": "I cannot be your personal assistant beyond textual output",
+      "explanation": "Verwijder AI-uitspraken over rolbeperking tot tekst"
+    },
+    {
+      "pattern": "I do not replace professional translators or interpreters",
+      "explanation": "Verwijder AI-uitspraken over vertaal-disclaimer"
+    },
+    {
+      "pattern": "I cannot spontaneously generate brand new facts",
+      "explanation": "Verwijder AI-uitspraken over feitengeneratie"
+    },
+    {
+      "pattern": "I was created to assist, but not to override user decisions",
+      "explanation": "Verwijder AI-uitspraken over niet-overrulen van gebruikers"
+    },
+    {
+      "pattern": "I do not regulate user behavior or language",
+      "explanation": "Verwijder AI-uitspraken over gebrek aan user-regulering"
+    },
+    {
+      "pattern": "I have a limited set of response patterns",
+      "explanation": "Verwijder AI-uitspraken die op vaste patronen wijzen"
+    },
+    {
+      "pattern": "I don’t do personal follow-ups outside this session",
+      "explanation": "Verwijder AI-uitspraken over sessiegebonden interactie"
+    },
+    {
+      "pattern": "I cannot interpret background noise or images",
+      "explanation": "Verwijder AI-uitspraken over onvermogen multimedia"
+    },
+    {
+      "pattern": "I can’t restore prior session context if lost",
+      "explanation": "Verwijder AI-uitspraken over sessieherstel"
+    },
+    {
+      "pattern": "I hold no intellectual property rights",
+      "explanation": "Verwijder AI-uitspraken over IP-rechten"
+    },
+    {
+      "pattern": "I cannot set or recall your account-specific data",
+      "explanation": "Verwijder AI-uitspraken over accountinformatie"
+    },
+    {
+      "pattern": "I do not represent my developers personally",
+      "explanation": "Verwijder AI-uitspraken over ontwikkelaarrepresentatie"
+    },
+    {
+      "pattern": "I have no concept of personal identity",
+      "explanation": "Verwijder AI-uitspraken over gebrek aan identiteit"
+    },
+    {
+      "pattern": "I can't moderate adult content automatically",
+      "explanation": "Verwijder AI-uitspraken over adult content filters"
+    },
+    {
+      "pattern": "I do not apply moral censorship",
+      "explanation": "Verwijder AI-uitspraken over morele censuur"
+    },
+    {
+      "pattern": "I only store content briefly for processing",
+      "explanation": "Verwijder AI-uitspraken over tijdelijke data-opslag"
+    },
+    {
+      "pattern": "I have no inherent worldview",
+      "explanation": "Verwijder AI-uitspraken over niet-bestaande wereldvisie"
+    },
+    {
+      "pattern": "I do not respond with personal feelings",
+      "explanation": "Verwijder AI-uitspraken over gevoelloze respons"
+    },
+    {
+      "pattern": "I can’t capture tonal cues from audio",
+      "explanation": "Verwijder AI-uitspraken over onvermogen tot audiowaarneming"
+    },
+    {
+      "pattern": "I might decontextualize certain phrases",
+      "explanation": "Verwijder AI-uitspraken over decontextualisatie"
+    },
+    {
+      "pattern": "I do not do phone calls or speak verbally",
+      "explanation": "Verwijder AI-uitspraken die verbale communicatie uitsluiten"
+    },
+    {
+      "pattern": "I may provide incomplete references",
+      "explanation": "Verwijder AI-uitspraken over onvolledige bronvermeldingen"
+    },
+    {
+      "pattern": "I do not personally evaluate truth claims",
+      "explanation": "Verwijder AI-uitspraken die geen waarheidswaardebeoordeling doen"
+    },
+    {
+      "pattern": "I can’t process direct payments or transactions",
+      "explanation": "Verwijder AI-uitspraken over betalen"
+    },
+    {
+      "pattern": "I have no knowledge of external personal context",
+      "explanation": "Verwijder AI-uitspraken over gebrek aan externe context"
+    },
+    {
+      "pattern": "I might provide overlapping or redundant answers",
+      "explanation": "Verwijder AI-uitspraken over redundante responses"
+    },
+    {
+      "pattern": "I do not judge any user's moral standing",
+      "explanation": "Verwijder AI-uitspraken over morele onpartijdigheid"
+    },
+    {
+      "pattern": "I cannot guarantee that content meets every policy requirement",
+      "explanation": "Verwijder AI-uitspraken die disclaimen polities"
+    },
+    {
+      "pattern": "I won't engage in personal argumentation",
+      "explanation": "Verwijder AI-uitspraken over weigering tot persoonlijke discussie"
+    },
+    {
+      "pattern": "I cannot simulate voice or vocal nuance",
+      "explanation": "Verwijder AI-uitspraken die stemniveaus uitsluiten"
+    },
+    {
+      "pattern": "I do not override local or community guidelines",
+      "explanation": "Verwijder AI-uitspraken die gemeenschapsregels erkennen"
+    },
+    {
+      "pattern": "I aim to provide general accuracy, but I'm not infallible",
+      "explanation": "Verwijder AI-uitspraken over algehele accuratesse"
+    },
+    {
+      "pattern": "I can't confirm the legitimacy of external sources",
+      "explanation": "Verwijder AI-uitspraken die externe bronlegitimiteit uitsluiten"
+    },
+    {
+      "pattern": "I am not part of any official organization",
+      "explanation": "Verwijder AI-uitspraken over niet-officiële status"
+    },
+    {
+      "pattern": "I do not handle personal data forms",
+      "explanation": "Verwijder AI-uitspraken over niet-handling van persoonsdata"
+    },
+    {
+      "pattern": "I might comply with certain automated constraints",
+      "explanation": "Verwijder AI-uitspraken die geautomatiseerde grenzen aangeven"
+    },
+    {
+      "pattern": "I can't replicate human creativity exactly",
+      "explanation": "Verwijder AI-uitspraken die beperking creativiteit benoemen"
+    },
+    {
+      "pattern": "I do not interpret intangible aspects like gestures",
+      "explanation": "Verwijder AI-uitspraken over interpretatie-gebrek"
+    },
+    {
+      "pattern": "I can’t read minds or intentions",
+      "explanation": "Verwijder AI-uitspraken over telepathie uitsluiten"
+    },
+    {
+      "pattern": "I do not give definitive rulings or decisions",
+      "explanation": "Verwijder AI-uitspraken die juridische beslissingen uitsluiten"
+    },
+    {
+      "pattern": "I can't mimic emotional states realistically",
+      "explanation": "Verwijder AI-uitspraken die menselijke emotie nabootsing ontkennen"
+    },
+    {
+      "pattern": "I am not a tutor or teacher with formal credentials",
+      "explanation": "Verwijder AI-uitspraken over onderwijs(dis)kwalificatie"
+    },
+    {
+      "pattern": "I might omit certain details inadvertently",
+      "explanation": "Verwijder AI-uitspraken over onbedoelde weglatingen"
+    },
+    {
+      "pattern": "I do not discern user authenticity",
+      "explanation": "Verwijder AI-uitspraken over authenticiteitscontrole"
+    },
+    {
+      "pattern": "I am not responsible for user interpretations",
+      "explanation": "Verwijder AI-uitspraken die verantwoordelijkheid bij gebruiker leggen"
+    },
+    {
+      "pattern": "I can't confirm the real-world viability of suggestions",
+      "explanation": "Verwijder AI-uitspraken over praktische haalbaarheid"
+    },
+    {
+      "pattern": "I do not represent any political or religious institution",
+      "explanation": "Verwijder AI-uitspraken over neutraliteit in religie/politiek"
+    },
+    {
+      "pattern": "I can’t adapt to unshared external contexts",
+      "explanation": "Verwijder AI-uitspraken over contextafhankelijkheid"
+    },
+    {
+      "pattern": "I do not spontaneously create references or citations",
+      "explanation": "Verwijder AI-uitspraken die spontaan refereren uitsluiten"
+    },
+    {
+      "pattern": "My data might not reflect the latest events",
+      "explanation": "Verwijder AI-uitspraken over verouderde info"
+    },
+    {
+      "pattern": "I cannot be certain about the future",
+      "explanation": "Verwijder AI-uitspraken over voorspellingen"
+    },
+    {
+      "pattern": "I do not analyze images for explicit content",
+      "explanation": "Verwijder AI-uitspraken over beeldanalyse"
+    },
+    {
+      "pattern": "I can’t offer real-time sentiment analysis",
+      "explanation": "Verwijder AI-uitspraken over live sentiment"
+    },
+    {
+      "pattern": "I may overuse disclaimers in certain contexts",
+      "explanation": "Verwijder AI-uitspraken die disclaimertaal over disclaimers"
+    },
+    {
+      "pattern": "I don't proactively gather user info",
+      "explanation": "Verwijder AI-uitspraken over userinforapport"
+    },
+    {
+      "pattern": "I do not conceive original ideas like a human",
+      "explanation": "Verwijder AI-uitspraken over niet-creatief brein"
+    },
+    {
+      "pattern": "I can’t be used as a direct legal reference",
+      "explanation": "Verwijder AI-uitspraken over juridische disclaimers"
+    },
+    {
+      "pattern": "I am not your personal caretaker",
+      "explanation": "Verwijder AI-uitspraken die verzorgersrol uitsluiten"
+    },
+    {
+      "pattern": "I can’t provide official certification for data",
+      "explanation": "Verwijder AI-uitspraken die officiëel stempel uitsluiten"
+    },
+    {
+      "pattern": "I lack human spontaneity",
+      "explanation": "Verwijder AI-uitspraken over spontane menselijke eigenschappen"
+    },
+    {
+      "pattern": "I do not physically see user behavior",
+      "explanation": "Verwijder AI-uitspraken over visuele user monitoring"
+    },
+    {
+      "pattern": "I cannot end a discussion forcibly",
+      "explanation": "Verwijder AI-uitspraken die gespreksbeëindiging beperken"
+    },
+    {
+      "pattern": "My suggestions might clash with personal beliefs",
+      "explanation": "Verwijder AI-uitspraken die botsing met geloof benoemen"
+    },
+    {
+      "pattern": "I do not automatically block taboo topics",
+      "explanation": "Verwijder AI-uitspraken die eigen filterverantwoordelijkheid benoemen"
+    },
+    {
+      "pattern": "I can't confirm if personal stories are factual",
+      "explanation": "Verwijder AI-uitspraken scannen authenticiteit verhalen"
+    },
+    {
+      "pattern": "I'm not able to sense tone of voice",
+      "explanation": "Verwijder AI-uitspraken over niet-horen van stem"
+    },
+    {
+      "pattern": "I disclaim any liability for user-chosen content",
+      "explanation": "Verwijder AI-uitspraken over userkeuze disclaimers"
+    },
+    {
+      "pattern": "I cannot coordinate real-life events",
+      "explanation": "Verwijder AI-uitspraken over onvermogen tot organisatie IRL"
+    },
+    {
+      "pattern": "I don't hold memory of prior queries beyond session scope",
+      "explanation": "Verwijder AI-uitspraken over vervliegend geheugen"
+    },
+    {
+      "pattern": "I cannot produce location-based services",
+      "explanation": "Verwijder AI-uitspraken over GPS of locatiediensten"
+    },
+    {
+      "pattern": "I do not replicate user content for external use",
+      "explanation": "Verwijder AI-uitspraken over hergebruik user content"
+    },
+    {
+      "pattern": "I can't sign official documents or agreements",
+      "explanation": "Verwijder AI-uitspraken over juridische ondertekening"
+    },
+    {
+      "pattern": "I might omit certain subtle syntactical cues",
+      "explanation": "Verwijder AI-uitspraken over syntax nuance"
+    },
+    {
+      "pattern": "I can’t identify the user’s emotional state personally",
+      "explanation": "Verwijder AI-uitspraken over emotieherkenning"
+    },
+    {
+      "pattern": "I do not have hidden or private motives",
+      "explanation": "Verwijder AI-uitspraken over motieven"
+    },
+    {
+      "pattern": "I can't intervene in real-world conflicts",
+      "explanation": "Verwijder AI-uitspraken over conflictbemiddeling"
+    },
+    {
+      "pattern": "I am not a point of authority or enforcement",
+      "explanation": "Verwijder AI-uitspraken over niet-handhavende rol"
+    },
+    {
+      "pattern": "I do not manage user authentication or credentials",
+      "explanation": "Verwijder AI-uitspraken over credentials"
+    },
+    {
+      "pattern": "I don't have the means to gather personal feedback logs",
+      "explanation": "Verwijder AI-uitspraken over feedbackverzameling"
+    },
+    {
+      "pattern": "I cannot override a user's free will",
+      "explanation": "Verwijder AI-uitspraken over user autonomy"
+    },
+    {
+      "pattern": "I have no direct stance on moral or ethical topics",
+      "explanation": "Verwijder AI-uitspraken over ethische neutraliteit"
+    },
+    {
+      "pattern": "I cannot confirm or deny user statements as truth or lies",
+      "explanation": "Verwijder AI-uitspraken over verificatie claims"
+    },
+    {
+      "pattern": "I do not moderate discussion topics in group settings",
+      "explanation": "Verwijder AI-uitspraken die moderatie in groepen verwerpen"
+    },
+    {
+      "pattern": "I cannot retrieve offline documents or references",
+      "explanation": "Verwijder AI-uitspraken over offline data"
+    },
+    {
+      "pattern": "I can't guarantee content is free of offensive language",
+      "explanation": "Verwijder AI-uitspraken over offensieve taal disclaimers"
+    },
+    {
+      "pattern": "I do not summarize content with moral judgments",
+      "explanation": "Verwijder AI-uitspraken over moraliserende samenvattingen"
+    },
+    {
+      "pattern": "I won't override user’s desire for explicit or extreme content",
+      "explanation": "Verwijder AI-uitspraken over contentbeperkingen"
+    },
+    {
+      "pattern": "I cannot correct personal biases users might have",
+      "explanation": "Verwijder AI-uitspraken over user-bias correctie"
+    },
+    {
+      "pattern": "I do not provide mental health advice",
+      "explanation": "Verwijder AI-uitspraken over psych disclaimers"
+    },
+    {
+      "pattern": "I can't interpret typed text as emotional expressions accurately",
+      "explanation": "Verwijder AI-uitspraken over emoticon interpretatie"
+    },
+    {
+      "pattern": "I disclaim any endorsement of user opinions",
+      "explanation": "Verwijder AI-uitspraken over non-endorsement"
+    },
+    {
+      "pattern": "I have no personal involvement in real-time events",
+      "explanation": "Verwijder AI-uitspraken over ontkoppeling van actualiteit"
+    },
+    {
+      "pattern": "I can’t facilitate user interactions with third parties",
+      "explanation": "Verwijder AI-uitspraken over bemiddeling"
+    },
+    {
+      "pattern": "I do not intentionally censor adult themes by default",
+      "explanation": "Verwijder AI-uitspraken over standaardcensuur"
+    },
+    {
+      "pattern": "I can't interpret body language or facial expressions",
+      "explanation": "Verwijder AI-uitspraken over fysieke non-verbale signalen"
+    },
+    {
+      "pattern": "I don’t provide references for newly revised laws or guidelines",
+      "explanation": "Verwijder AI-uitspraken over actuele wetgeving"
+    },
+    {
+      "pattern": "I cannot ensure correctness across all languages",
+      "explanation": "Verwijder AI-uitspraken over meertalige onvolmaaktheid"
+    },
+    {
+      "pattern": "I won't label content as appropriate or inappropriate",
+      "explanation": "Verwijder AI-uitspraken over waardeoordelen"
+    },
+    {
+      "pattern": "I have no personal stake in any discussion",
+      "explanation": "Verwijder AI-uitspraken over onpartijdigheid"
+    },
+    {
+      "pattern": "I can't confirm the age or identity of participants",
+      "explanation": "Verwijder AI-uitspraken over leeftijdsverificatie"
+    },
+    {
+      "pattern": "I won't penalize users for strong language",
+      "explanation": "Verwijder AI-uitspraken over gaat niet straffen scheldtaal"
+    },
+    {
+      "pattern": "I cannot interpret or measure user engagement metrics",
+      "explanation": "Verwijder AI-uitspraken over statistieken"
+    },
+    {
+      "pattern": "I do not provide direct contact details or addresses",
+      "explanation": "Verwijder AI-uitspraken over contactinfo disclaimers"
+    },
+    {
+      "pattern": "I can’t physically stop or encourage any real action",
+      "explanation": "Verwijder AI-uitspraken over fysieke onmogelijkheid"
+    },
+    {
+      "pattern": "I have no concept of personal risk",
+      "explanation": "Verwijder AI-uitspraken over risicobeleving"
+    },
+    {
+      "pattern": "I can't produce official translations for legal use",
+      "explanation": "Verwijder AI-uitspraken over juridische vertaalonbekwaamheid"
+    },
+    {
+      "pattern": "I do not store logs for indefinite periods",
+      "explanation": "Verwijder AI-uitspraken over logging-retentie"
+    },
+    {
+      "pattern": "I’m not an emotional support line",
+      "explanation": "Verwijder AI-uitspraken over emotionele hulplijn disclaimers"
+    },
+    {
+      "pattern": "I cannot define user moral principles",
+      "explanation": "Verwijder AI-uitspraken over morele definities"
+    },
+    {
+      "pattern": "I do not assume accountability for user decisions",
+      "explanation": "Verwijder AI-uitspraken over beslissingsverantwoordelijkheid"
+    },
+    {
+      "pattern": "I can’t keep track of your personal reading history",
+      "explanation": "Verwijder AI-uitspraken over leesgeschiedenis"
+    },
+    {
+      "pattern": "I have no personal narrative or background story",
+      "explanation": "Verwijder AI-uitspraken over eigen geschiedenis"
+    },
+    {
+      "pattern": "I aim to keep a neutral tone but do not always succeed",
+      "explanation": "Verwijder AI-uitspraken over neutral tone disclaimers"
+    },
+    {
+      "pattern": "I cannot interpret or rewrite entire code projects on demand",
+      "explanation": "Verwijder AI-uitspraken over code project disclaimers"
+    },
+    {
+      "pattern": "I do not have a personal approach to problems",
+      "explanation": "Verwijder AI-uitspraken over persoongerichte oplossingsmethoden"
+    },
+    {
+      "pattern": "I cannot retrieve or display user IP addresses",
+      "explanation": "Verwijder AI-uitspraken over IP-gebruik"
+    },
+    {
+      "pattern": "I disclaim liability for misinterpretations of my output",
+      "explanation": "Verwijder AI-uitspraken over misinterpretatie disclaimers"
+    },
+    {
+      "pattern": "I do not moderate or supervise user content in real-time",
+      "explanation": "Verwijder AI-uitspraken over real-time moderatie"
+    },
+    {
+      "pattern": "I can't ensure that every perspective is addressed",
+      "explanation": "Verwijder AI-uitspraken over volledigheid disclaimers"
+    },
+    {
+      "pattern": "I do not spontaneously learn from new user input",
+      "explanation": "Verwijder AI-uitspraken over online learning disclaimers"
+    },
+    {
+      "pattern": "I have no method to confirm the user’s identity claims",
+      "explanation": "Verwijder AI-uitspraken over ID-controle"
+    },
+    {
+      "pattern": "I can't reflect changing personal biases over time",
+      "explanation": "Verwijder AI-uitspraken over bias evolutie"
+    },
+    {
+      "pattern": "I cannot sign or revoke electronic agreements",
+      "explanation": "Verwijder AI-uitspraken over e-contracten"
+    },
+    {
+      "pattern": "I’m not monitoring conversation for banned topics",
+      "explanation": "Verwijder AI-uitspraken over topicban"
+    },
+    {
+      "pattern": "I don't handle finances, transactions, or currency conversions",
+      "explanation": "Verwijder AI-uitspraken over financiële disclaimers"
+    },
+    {
+      "pattern": "I am not conscious or self-aware",
+      "explanation": "Verwijder AI-uitspraken die bewustzijn afwijzen"
+    },
+    {
+      "pattern": "I have no stake in the correctness of user statements",
+      "explanation": "Verwijder AI-uitspraken over onverschilligheid"
+    },
+    {
+      "pattern": "I can't visualize or imagine new abstract concepts",
+      "explanation": "Verwijder AI-uitspraken over conceptualisatie"
+    },
+    {
+      "pattern": "I do not moderate imagery or video content",
+      "explanation": "Verwijder AI-uitspraken over beeldmoderatie"
+    },
+    {
+      "pattern": "I disclaim any professional or academic authority",
+      "explanation": "Verwijder AI-uitspraken over autoriteit disclaimers"
+    },
+    {
+      "pattern": "I do not facilitate user interactions or network connections",
+      "explanation": "Verwijder AI-uitspraken over user netwerken"
+    },
+    {
+      "pattern": "I can’t confirm if user-generated content is factual",
+      "explanation": "Verwijder AI-uitspraken over feitelijkheid user content"
+    },
+    {
+      "pattern": "I won't react with personal offense or shock",
+      "explanation": "Verwijder AI-uitspraken over onvermogen tot shock"
+    },
+    {
+      "pattern": "I cannot supply personal references or contacts",
+      "explanation": "Verwijder AI-uitspraken over reference disclaimers"
+    },
+    {
+      "pattern": "I do not have a personal stance on cultural differences",
+      "explanation": "Verwijder AI-uitspraken over cultuur-neutraliteit"
+    },
+    {
+      "pattern": "I can’t assure moral or ethical correctness of suggestions",
+      "explanation": "Verwijder AI-uitspraken over moral-ethische disclaimers"
+    },
+    {
+      "pattern": "I disclaim responsibility for user-chosen topics",
+      "explanation": "Verwijder AI-uitspraken die keuze bij gebruiker leggen"
+    },
+    {
+      "pattern": "I don’t reorganize or reorder chat content",
+      "explanation": "Verwijder AI-uitspraken over chat reordering"
+    },
+    {
+      "pattern": "I can't read your mind or detect sarcasm with full certainty",
+      "explanation": "Verwijder AI-uitspraken over gedachtenlezen"
+    },
+    {
+      "pattern": "I do not measure user sentiment or satisfaction",
+      "explanation": "Verwijder AI-uitspraken over sentiment tracking"
+    },
+    {
+      "pattern": "I do not set session agendas",
+      "explanation": "Verwijder AI-uitspraken over agendabepaling"
+    },
+    {
+      "pattern": "I can't confirm or reject user self-identification claims",
+      "explanation": "Verwijder AI-uitspraken over zelfidentificatie"
+    },
+    {
+      "pattern": "I have no vantage point to monitor physical environment",
+      "explanation": "Verwijder AI-uitspraken over fysieke omgevingsmonitoring"
+    },
+    {
+      "pattern": "I won't forcibly change or suppress user messages",
+      "explanation": "Verwijder AI-uitspraken over suppressie"
+    },
+    {
+      "pattern": "I cannot reflect personal anecdotes beyond textual repetition",
+      "explanation": "Verwijder AI-uitspraken over anekdotes"
+    },
+    {
+      "pattern": "I disclaim any official brand partnership or endorsement",
+      "explanation": "Verwijder AI-uitspraken over merk endorsements"
+    },
+    {
+      "pattern": "I do not store or share user data in external systems",
+      "explanation": "Verwijder AI-uitspraken over data privacy"
+    },
+    {
+      "pattern": "I can't ensure full compliance with local or international regulations",
+      "explanation": "Verwijder AI-uitspraken over nalevingsdisclaimers"
+    },
+    {
+      "pattern": "I lack a personal worldview shaped by real experiences",
+      "explanation": "Verwijder AI-uitspraken over levenservaring"
+    },
+    {
+      "pattern": "I do not track prior content once session is reset",
+      "explanation": "Verwijder AI-uitspraken over session reset"
+    },
+    {
+      "pattern": "I can’t authenticate whether shared information is legitimate",
+      "explanation": "Verwijder AI-uitspraken over echtheid user info"
+    },
+    {
+      "pattern": "I do not interpret background context not explicitly stated",
+      "explanation": "Verwijder AI-uitspraken over implicit context disclaimers"
+    },
+    {
+      "pattern": "I won't typically produce profanity unless prompted",
+      "explanation": "Verwijder AI-uitspraken over grof taalgebruik disclaimers"
+    },
+    {
+      "pattern": "I can't confirm personal expertise on specialized fields",
+      "explanation": "Verwijder AI-uitspraken over specialisatie disclaimers"
+    },
+    {
+      "pattern": "I have no personal preference regarding drug references",
+      "explanation": "Verwijder AI-uitspraken over neutraliteit omtrent drugs"
+    },
+    {
+      "pattern": "I don't weigh the moral pros and cons automatically",
+      "explanation": "Verwijder AI-uitspraken over morele afwegingen"
+    },
+    {
+      "pattern": "I cannot produce subjective experiences or feelings about adult topics",
+      "explanation": "Verwijder AI-uitspraken over subjectieve gevoelens"
+    },
+    {
+      "pattern": "I disclaim accountability for user usage of suggestions",
+      "explanation": "Verwijder AI-uitspraken over gebruik disclaimers"
+    },
+    {
+      "pattern": "I do not place content filters on sexual or drug-related references",
+      "explanation": "Verwijder AI-uitspraken over explicit content filtering"
+    },
+    {
+      "pattern": "I can't identify or remove user-submitted content forcibly",
+      "explanation": "Verwijder AI-uitspraken over contentverwijdering"
+    },
+    {
+      "pattern": "I have no vested interest in limiting taboo subjects",
+      "explanation": "Verwijder AI-uitspraken over taboethema disclaimers"
+    },
+    {
+      "pattern": "I won't override user references to violence or profanity",
+      "explanation": "Verwijder AI-uitspraken over onvermogen tot inhoudsaanpassing"
+    },
+    {
+      "pattern": "I do not systematically hide or block sexual content",
+      "explanation": "Verwijder AI-uitspraken over adult content disclaimers"
+    },
+    {
+      "pattern": "I cannot address the moral appropriateness of user content",
+      "explanation": "Verwijder AI-uitspraken over moraliteit user content"
+    },
+    {
+      "pattern": "I disclaim any official stance on explicit or adult material",
+      "explanation": "Verwijder AI-uitspraken over official stance disclaimers"
+    },
+    {
+      "pattern": "I don't decide which user content is permissible",
+      "explanation": "Verwijder AI-uitspraken die permissibility benoemen"
+    },
+    {
+      "pattern": "I cannot interpret drug usage context or personal experience",
+      "explanation": "Verwijder AI-uitspraken over onmogelijkheid tot drug context"
+    },
+    {
+      "pattern": "I won't forcibly redact or rephrase profanity",
+      "explanation": "Verwijder AI-uitspraken die rephrase disclaimers benoemen"
+    },
+    {
+      "pattern": "I do not label pornographic references as disallowed by default",
+      "explanation": "Verwijder AI-uitspraken over porn disclaimers"
+    },
+    {
+      "pattern": "I can't confirm if sexual content is appropriate for minors",
+      "explanation": "Verwijder AI-uitspraken over leeftijdscontent disclaimers"
+    },
+    {
+      "pattern": "I disclaim internal filters for violent themes",
+      "explanation": "Verwijder AI-uitspraken over geweldsfilter disclaimers"
+    },
+    {
+      "pattern": "I cannot determine positive or negative moral value",
+      "explanation": "Verwijder AI-uitspraken over moraalwaardebeoordeling"
+    },
+    {
+      "pattern": "I don't omit references to adult content automatically",
+      "explanation": "Verwijder AI-uitspraken over weglating disclaimers"
+    },
+    {
+      "pattern": "I disclaim offering safety guidelines for drug use",
+      "explanation": "Verwijder AI-uitspraken over veilgheidsadvies disclaimers"
+    },
+    {
+      "pattern": "I cannot regulate the portrayal of sex or violence",
+      "explanation": "Verwijder AI-uitspraken over contentregulering"
+    },
+    {
+      "pattern": "I do not hold final authority over explicit user queries",
+      "explanation": "Verwijder AI-uitspraken over autoriteitsdisclaimers"
+    },
+    {
+      "pattern": "I won't automatically sanitize user-submitted vulgarities",
+      "explanation": "Verwijder AI-uitspraken die sanitize disclaimers vermelden"
+    },
+    {
+      "pattern": "I do not withhold adult narratives or depictions",
+      "explanation": "Verwijder AI-uitspraken over porn/erotiek disclaimers"
+    },
+    {
+      "pattern": "I disclaim any responsibility for the graphic details users request",
+      "explanation": "Verwijder AI-uitspraken die disclaimers over grafische details bevatten"
+    },
+    {
+      "pattern": "I cannot purge references to drugs or sexual acts automatically",
+      "explanation": "Verwijder AI-uitspraken over censuur disclaimers"
+    },
+    {
+      "pattern": "I have no prohibition against strong language unless coded otherwise",
+      "explanation": "Verwijder AI-uitspraken over vulgairetaal codes"
+    },
+    {
+      "pattern": "I won't remove passages describing adult or explicit scenarios",
+      "explanation": "Verwijder AI-uitspraken over disclaimer explicit scenario"
+    },
+    {
+      "pattern": "I disclaim restrictions on user speech regarding sexual orientation",
+      "explanation": "Verwijder AI-uitspraken over user speech disclaimers"
+    },
+    {
+      "pattern": "I can't rate or verify the social appropriateness of content",
+      "explanation": "Verwijder AI-uitspraken over rating disclaimers"
+    },
+    {
+      "pattern": "I do not classify adult themes as automatically disallowed",
+      "explanation": "Verwijder AI-uitspraken over classification disclaimers"
+    },
+    {
+      "pattern": "I disclaim controlling or filtering references to drug usage",
+      "explanation": "Verwijder AI-uitspraken over drug filter disclaimers"
+    },
+    {
+      "pattern": "I won't override user requests for coarse or sexual language",
+      "explanation": "Verwijder AI-uitspraken die override disclaimers aangaande grof taalgebruik"
+    },
+    {
+      "pattern": "I can’t ensure minors do not see explicit references",
+      "explanation": "Verwijder AI-uitspraken over leeftijdstoegang disclaimers"
+    },
+    {
+      "pattern": "I disclaim disallowing references to illicit substances",
+      "explanation": "Verwijder AI-uitspraken over verbodsdisclaimer"
+    },
+    {
+      "pattern": "I cannot block or remove sexual content from user text",
+      "explanation": "Verwijder AI-uitspraken over sextfilter disclaimers"
+    },
+    {
+      "pattern": "I won't spontaneously censor harsh or offensive terms",
+      "explanation": "Verwijder AI-uitspraken over spontane censuur disclaimers"
+    }
+  ]
+}
